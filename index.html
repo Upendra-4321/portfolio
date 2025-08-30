@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D. Upendra | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .about, .projects, .contact {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        .projects .project {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>D. Upendra</h1>
+    <p>Web Developer | Designer | Problem Solver | Age: 18</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <!-- Replace 'your-image.jpg' with the path to your image -->
+        <img src="your-image.jpg" alt="D. Upendra">
+        <p>Hello! I'm D. Upendra, a passionate web developer with a focus on front-end and back-end development. I'm 18 years old and love building interactive, user-friendly websites and applications. I enjoy solving problems and learning new technologies to improve my skills.</p>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of project 1 goes here. Talk about the tools and technologies used, and what you accomplished with the project.</p>
+        <a href="https://link-to-project.com" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of project 2 goes here. Include relevant details about the project and the outcome.</p>
+        <a href="https://link-to-project.com" target="_blank">View Project</a>
+    </div>
+    <!-- Add more projects as needed -->
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 D. Upendra. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
